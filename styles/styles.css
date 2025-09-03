@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+body {
+    background-color: #242424;
+    
+}
+.wrapper {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+.header h1 {
+    background-color: #000000;
+    color: #f5f5f5;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px rgba(255,255, 255, 0.2);
+    letter-spacing: 3px;
+}
+.main {
+    background: #2A7B9B;
+    background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+    padding: 10px 30px 25px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:  400px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.1);
+}
+input[type="search"] {
+    border: none;
+    padding: 10px 0;
+    border-radius: 20px;
+    outline: none;
+    width: 250px;
+    text-align: center;
+    font-size: 17px;
+}
+input[type="search"]:active {
+    border: none;
+}
+input[type="search"]::placeholder {
+    text-align: center;
+}
+.search label{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+
+}
+.img-search {
+    width: 40px;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 5px;
+    border-radius: 50%;
+}
+.wrapper-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.wrapper-img img {
+    width: 150px;
+}
+.degree {
+    margin-top: 10px;
+    font-size: 30px;
+}
+.city-name {
+    font-size: 40px;
+}
+.wrapper-option-info {
+    display: flex;
+    justify-content: space-between;
+}
+.humidity, .wind-speed {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    gap: 10px;
+    font-weight: bold;
+    color: white;
+}
+.humidity img, .wind-speed img {
+    width: 50px;
+}
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    border-top: solid 1px #cecdcd;
+}
+.footer, footer a {
+    color: #cecdcd;
+    font-style: italic;
+    font-size: 17px;
+}
